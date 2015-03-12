@@ -1,0 +1,22 @@
+/*
+*
+* @package Fixed footer navbar
+* @author dmzx (www.dmzx-web.net)
+* @copyright (c) 2014 by dmzx (www.dmzx-web.net)
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+*
+*/
+
+#page-footer .navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 99%;
+    max-width: 100%;
+    background: url("./images/bg.jpg") no-repeat scroll 50% 70% #000;
+    box-shadow: 0 0 2px 2px #000000;
+}
+
+#page-footer {
+    padding-bottom: 30px;
+}
