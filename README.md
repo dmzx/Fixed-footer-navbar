@@ -1,5 +1,7 @@
 # phpBB Fixed footer navbar Extension
 
+[![Build Status](https://travis-ci.org/dmzx/Fixed-footer-navbar.svg?branch=master)](https://travis-ci.org/dmzx/Fixed-footer-navbar)
+
 ## Install
 1. Download the latest release.
 2. Unzip the downloaded release, and change the name of the folder to `fixedfooternavbar`.
