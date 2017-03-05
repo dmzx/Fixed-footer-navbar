@@ -3,9 +3,13 @@
 	"type": "phpbb-extension",
 	"description": "This extension will make your footer navbar fixed to your board.",
 	"homepage": "http://www.dmzx-web.net",
-	"version": "1.0.2",
-	"time": "2014-11-25",
-	"keywords": ["phpbb", "extension", "fixedfooternavbar"],
+	"version": "1.0.3",
+	"time": "2017-01-20",
+	"keywords": [
+		"phpbb",
+		"extension",
+		"fixedfooternavbar"
+	],
 	"license": "GPL-2.0",
 	"authors": [
 		{
@@ -16,12 +20,16 @@
 		}
 	],
 	"require": {
-		"php": ">=5.3.3"
+		"php": ">=5.3.3",
+		"phpbb/phpbb": ">=3.1.0,<3.3"
+	},
+	"require-dev": {
+		"phpbb/epv": "dev-master"
 	},
 	"extra": {
 		"display-name": "Fixed footer navbar",
 		"soft-require": {
-			"phpbb/phpbb": "3.1.*"
+			"phpbb/phpbb": ">=3.1.0,<3.3"
 		},
 		"version-check": {
 			"host": "www.dmzx-web.net",

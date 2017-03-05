@@ -1,7 +1,6 @@
 # phpBB Fixed footer navbar Extension
 
 ## Install
-
 1. Download the latest release.
 2. Unzip the downloaded release, and change the name of the folder to `fixedfooternavbar`.
 3. In the `ext` directory of your phpBB board, create a new directory named `dmzx` (if it does not already exist).
@@ -10,7 +9,6 @@
 6. Look for `Fixed footer navbar` under the Disabled Extensions list, and click its `Enable` link.
 
 ## Uninstall
-
 1. Navigate in the ACP to `Customise -> Extension Management -> Extensions`.
 2. Look for `Fixed footer navbar` under the Enabled Extensions list, and click its `Disable` link.
 3. To permanently uninstall, click `Delete Data` and then delete the `/ext/dmzx/fixedfooternavbar` folder.
